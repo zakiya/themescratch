@@ -1,0 +1,68 @@
+// --------------------------------------------------------
+// GRID and LAYOUT STLES
+// --------------------------------------------------------
+
+// --------------------------------------------------------
+// VARIABLES
+// --------------------------------------------------------
+ 
+// Suzy Setup
+// @see http://susy.oddbird.net/guides/getting-started
+// The basic Susy grid is composed using two simple mixins:
+// Use the container() mixin to create your initial grid context.
+// Use the span-columns() mixin to declare the width of an element on the grid.
+
+// $total-columns  : 12;             // a 12-column grid
+// $column-width   : 80px;           // each column is 80px wide
+// $gutter-width   : 10px;           // 10px gutters between columns
+// $grid-padding   : $gutter-width;  // grid-padding equal to gutters
+
+// @include at-breakpoint(0 5 600px) {
+//   .container {
+//     @include container;
+//     .sidebar-first, 
+//     .sidebar-last {
+//       @include span-columns(5,5);
+//     } 
+//   }
+//   .two-sidebars .main-content {
+//     @include span-columns(5,5);
+//   }
+//   .one-sidebar .main-content {
+//     @include span-columns(5,5);
+//   }
+//   .no-sidebars .main-content {
+//     @include span-columns(5,5);
+//   }
+// }
+// @include at-breakpoint(601px 12) {
+  // .container {
+  //   @include container;
+  //   .sidebar-first {
+  //     @include span-columns(3,12);
+  //   }
+  //   .sidebar-second {
+  //     @include span-columns(3 omega,12);
+  //   } 
+  // }
+  // .two-sidebars .main-content {
+  //   @include span-columns(6,12);
+  // }
+  // .one-sidebar.sidebar-first .main-content {
+  //   @include span-columns(9 omega ,12);
+  // }
+  // .one-sidebar.sidebar-second .main-content {
+  //   @include span-columns(9,12);
+  // }
+  // .no-sidebars .main-content {
+  //   @include span-columns(12,12);
+  // }
+// }
+
+// SHOW MORE SUSY FUNCTIONS
+// #block-block-3 {
+//   @include span-columns(4,12);
+// }
+// #block-block-4 {
+//   @include span-columns(3 omega,9);
+// }

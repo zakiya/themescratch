@@ -1,0 +1,24 @@
+name = SANDCampp 2014 Theme
+description = Responsive Theming from Scratch Demo.
+core = 7.x
+engine = phptemplate
+screenshot = screenshot.png
+
+; ** STYLESHEETS
+;stylesheets[all][] = css/global.css
+
+; ** CUSTOM JS
+;scripts[] = js/scripts.js
+
+; ** REQUIRED CORE REGIONS (do not remove)
+;regions[page_top] = Page Top
+;regions[page_bottom] = Page Bottom
+;regions[content] = Content
+
+; ** CUSTOM REGIONS
+;regions[highlighted] = Highlighted
+;regions[header] = Header
+;regions[sidebar_first] = Sidebar first
+;regions[sidebar_second] = Sidebar second
+;regions[footer] = Footer
+;regions[closure] = Closure

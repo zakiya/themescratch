@@ -1,0 +1,86 @@
+// --------------------------------------------------------
+// DEFAULT STYLES - GLOBAL 
+// --------------------------------------------------------
+
+body {
+  @extend %base-font;
+  margin: 0;
+}
+
+// #{headings(1,6)}{
+//   @extend %head-font;
+// }
+
+// Header Styles
+// --------------------------------------------------------
+// Header
+.header {
+  background: $clr-blue;
+  padding-top: 10px;
+  a {
+    &:link, 
+    &:visited {
+      color: $white;
+      text-decoration: none;
+    }
+    &.active {
+      background-color: tint($clr-blue, 50%);
+    }
+    &:hover {
+      color: $clr-orange;
+    }
+  }
+}
+.main-menu {
+  ul {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  li {
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    //  SHOW BREAKPOINT
+    // @include breakpoint(0 600px) {
+    //   background: $clr-orange;
+    //   display: block;
+    //   width: 100%;
+    // }
+  }
+  
+}
+.secondary-menu {
+  float: right;
+}
+
+// Main Content Styles
+// --------------------------------------------------------
+.main-content {
+  padding-bottom: 20px;
+  img {
+    float: left;
+    margin: 0 20px 20px;
+  }
+}
+
+// Footer Styles
+// --------------------------------------------------------
+.footer {
+  background-color: tint($black, 10%);
+  color: $white;
+  padding: 10px 0;
+  a {
+    &:link, 
+    &:visited {
+      color: $white;
+      text-decoration: none;
+    }
+    &.active {
+      background-color: tint($clr-blue, 50%);
+    }
+    &:hover {
+      color: $clr-orange;
+    }
+  }
+}
