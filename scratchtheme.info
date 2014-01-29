@@ -5,10 +5,11 @@ engine = phptemplate
 screenshot = screenshot.png
 
 ; ** STYLESHEETS
-;stylesheets[all][] = css/global.css
+stylesheets[all][] = compass/css/global.css
+stylesheets[all][] = node.css
 
 ; ** CUSTOM JS
-;scripts[] = js/scripts.js
+scripts[] = js/scripts.js
 
 ; ** REQUIRED CORE REGIONS (do not remove)
 ;regions[page_top] = Page Top

@@ -122,6 +122,7 @@
   <?php endif; ?> 
   <!-- /sidebar-first -->
 
+
   <div class="main-content">
     <a id="main-content"></a>
     <?php if ($messages): ?>

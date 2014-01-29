@@ -7,9 +7,9 @@ body {
   margin: 0;
 }
 
-// #{headings(1,6)}{
-//   @extend %head-font;
-// }
+#{headings(1,6)}{
+   @extend %head-font;
+}
 
 // Header Styles
 // --------------------------------------------------------
@@ -20,14 +20,14 @@ body {
   a {
     &:link, 
     &:visited {
-      color: $white;
+      //: $white;
       text-decoration: none;
     }
     &.active {
       background-color: tint($clr-blue, 50%);
     }
     &:hover {
-      color: $clr-orange;
+      //color: $clr-orange;
     }
   }
 }
@@ -42,11 +42,11 @@ body {
     text-transform: uppercase;
     padding: 10px 15px;
     //  SHOW BREAKPOINT
-    // @include breakpoint(0 600px) {
-    //   background: $clr-orange;
-    //   display: block;
-    //   width: 100%;
-    // }
+    @include breakpoint(0 600px) {
+       background: $clr-orange;
+       display: block;
+       width: 100%;
+    }
   }
   
 }
@@ -67,7 +67,7 @@ body {
 // Footer Styles
 // --------------------------------------------------------
 .footer {
-  background-color: tint($black, 10%);
+  //background-color: tint($black, 10%);
   color: $white;
   padding: 10px 0;
   a {

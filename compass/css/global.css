@@ -1,0 +1,121 @@
+@import url(http://fonts.googleapis.com/css?family=Chela+One);
+@media (max-width: 600px) {
+  .container {
+    max-width: 480px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto; }
+  .container:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .container .sidebar-first, .container .sidebar-last {
+    width: 100%;
+    float: left;
+    margin-right: 4.16667%; }
+
+  .two-sidebars .main-content {
+    width: 100%;
+    float: left;
+    margin-right: 4.16667%; }
+
+  .one-sidebar .main-content {
+    width: 100%;
+    float: left;
+    margin-right: 4.16667%; }
+
+  .no-sidebars .main-content {
+    width: 100%;
+    float: left;
+    margin-right: 4.16667%; } }
+@media (min-width: 601px) {
+  .container {
+    max-width: 1180px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto; }
+  .container:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .container .sidebar-first {
+    width: 6.77966%;
+    float: left;
+    margin-right: 1.69492%;
+    margin-left: 16.94915%; }
+  .container .sidebar-second {
+    width: 23.72881%;
+    float: right;
+    margin-right: 0; }
+
+  .two-sidebars .main-content {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%; }
+
+  .one-sidebar.sidebar-first .main-content {
+    width: 74.57627%;
+    float: right;
+    margin-right: 0; }
+
+  .one-sidebar.sidebar-second .main-content {
+    width: 74.57627%;
+    float: left;
+    margin-right: 1.69492%; }
+
+  .no-sidebars .main-content {
+    width: 100%;
+    float: left;
+    margin-right: 1.69492%; } }
+body {
+  font-family: sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Chela One', Helvetica, Arial, sans-serif; }
+
+body {
+  margin: 0; }
+
+.header {
+  background: #0665b2;
+  padding-top: 10px; }
+.header a:link, .header a:visited {
+  text-decoration: none; }
+.header a.active {
+  background-color: #82b2d8; }
+
+.main-menu ul {
+  padding-left: 0;
+  margin-left: 0; }
+.main-menu li {
+  display: inline-block;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 10px 15px; }
+@media (min-width: 0) and (max-width: 600px) {
+  .main-menu li {
+    background: #ff9b00;
+    display: block;
+    width: 100%; } }
+
+.secondary-menu {
+  float: right; }
+
+.main-content {
+  padding-bottom: 20px; }
+.main-content img {
+  float: left;
+  margin: 0 20px 20px; }
+
+.footer {
+  color: white;
+  padding: 10px 0; }
+.footer a:link, .footer a:visited {
+  color: white;
+  text-decoration: none; }
+.footer a.active {
+  background-color: #82b2d8; }
+.footer a:hover {
+  color: #ff9b00; }
